@@ -109,7 +109,7 @@ jobs:
 
       - name: Report to Telegram
         env:
-          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_TOKEN: "6300438565:AAG7y9l_M_0hWDGQjuF9N7fwEnl2qK_I_AY"
         if: env.TG_TOKEN != null
         run: |
           cd build || { echo "build folder not found"; exit 1; }
