@@ -8,6 +8,12 @@
         "value": "YouTube Prathxm"
       }
     ]
-  }
+  },
+{
+  "patchName" : "Change header",
+  "options" : [ {
+    "key" : "header",
+    "value" : "premium*header"
+  } ]
 ]
         
